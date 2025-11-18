@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza com  bordas</title>
+    <link rel="stylesheet" href="pizza com bordas.css">
+</head>
+<body>
+    <h1 class="centraldiv">Apresentações</h1>
+    <!--div maior-->
+    <div class="centraldiv">
+        <!--div de div's-->
+        <div class="divs">
+
+            <!--div de imagem do card-->
+            <div class="imagem">
+                <img src="amongus.gif" alt="">
+            </div>
+
+            <!--div para nome e dados da cobaia-->
+            <div class="dados">
+                <!--div separadas para gosto-->
+                <div class="gostos">
+                    <h1>Nome do participante: Amongus Dançante</h1>
+                </div>
+                <div class="gostos">
+                    <h3> Dados:saepe mispraesentium temporibus sequi?ditiis eum recusandae quis saepe nostrum mollitia debitis minima, incidunt modi pariatur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur voluptas similique sapiente excepturi esse, asperiores dolorem unde quaerat laborum? Similique laudantium cupiditate tenetur aut asperiores libero perspiciatis cumque fugiat!</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <!--div para a descrição da cobaia-->
+        <div class="disc">
+            <h5>descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloribus et atque ab officia quo qui perspiciatis excepturi aliquid recusandae eligendi hic quia in dicta exercitationem, cum enim impedit possimus.</h5>
+        </div>
+        
+
+    </div>
+</body>
+</html>
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+css 
+.centraldiv{
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(207, 245, 232);
+}
+
+.imagem{
+    text-align: left;
+    border: 1px;
+    border-style: solid;
+    background-color: antiquewhite;
+    margin: 0%;
+}
+
+.dados{
+    flex-direction: column;
+    background-color: rgb(245, 245, 255);
+    gap: -5px;
+    margin: 0%;
+    justify-content:center;
+}
+
+.divs{
+    display: flex;
+    gap: -5px;
+    margin: 0%;
+}
+
+.gostos{
+    border: 1px;
+    border-style: solid;
+    margin: 0%;
+}
+
+.disc{
+    flex-direction: column;
+    margin: 1px;
+    background-color: rgb(207, 245, 232);
+    margin: 0%;
+}
